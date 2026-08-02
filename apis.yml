@@ -1,7 +1,23 @@
 aid: tradesy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tradesy.png
 name: Tradesy
-description: Tradesy is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tradesy was a Los Angeles-based online marketplace for buying and selling pre-owned luxury
+  and designer fashion, founded in 2009 and backed by 500 Global among others. In March 2022 it was
+  acquired by Paris-based Vestiaire Collective to accelerate that company's expansion into the US resale
+  market, and the standalone Tradesy brand was subsequently wound down. The tradesy.com domain now
+  redirects to vestiairecollective.com, and Tradesy no longer operates an independent website, developer
+  program, or public API. This profile is retained as a historical/acquired-company record.
 url: https://raw.githubusercontent.com/api-evangelist/tradesy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,24 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: vestiaire-collective
+x-acquired-date: '2022-03'
+x-enrichment-evidence: tradesy.com redirects to www.vestiairecollective.com; no api.tradesy.com or developers.tradesy.com
+  subdomains (NXDOMAIN); /.well-known/ paths return 403; no OpenAPI, SDK, or developer surface found.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fashion
+- Resale
+- Marketplace
+- Ecommerce
+- Luxury
+- Sustainability
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,8 @@ maintainers:
 common:
 - type: Website
   url: https://tradesy.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
