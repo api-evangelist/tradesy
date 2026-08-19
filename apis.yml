@@ -30,7 +30,7 @@ x-acquired-by: vestiaire-collective
 x-acquired-date: '2022-03'
 x-enrichment-evidence: tradesy.com redirects to www.vestiairecollective.com; no api.tradesy.com or developers.tradesy.com
   subdomains (NXDOMAIN); /.well-known/ paths return 403; no OpenAPI, SDK, or developer surface found.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
