@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://tradesy.com', status: 308, note: 'declared website redirects to https://www.vestiairecollective.com/ — a different registrable domain (tradesy.com -> vestiairecollective.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tradesy.png
 name: Tradesy
 description: Tradesy was a Los Angeles-based online marketplace for buying and selling pre-owned luxury
